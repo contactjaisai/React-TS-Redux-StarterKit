@@ -5,7 +5,7 @@ This is a base chassis for building React applications.  It uses the following t
   * [React](https://facebook.github.io/react/)
   * [Redux](http://redux.js.org/)
   * [React-Router](http://ricostacruz.com/cheatsheets/react-router.html)
-  * [TypeScript] (https://www.typescriptlang.org/)
+  * [TypeScript](https://www.typescriptlang.org/)
 
 ## Getting Started
 
