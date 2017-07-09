@@ -1,0 +1,9 @@
+dist
+node_modules
+*debug.log
+
+
+.DS_Store
+Thumbs.db
+__snapshots__
+coverage

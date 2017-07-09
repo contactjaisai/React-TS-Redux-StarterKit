@@ -1,0 +1,31 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "no-duplicate-variable": true,
+    "curly": true,
+    "no-eval": true,
+    "cyclomatic-complexity": [true, 4],
+    "eofline": true,
+    "linebreak-style": [true, "LF"],
+    "semicolon": [true, "always"],
+    "indent": [true, "spaces"],
+    "no-trailing-whitespace": true,
+    "prefer-const": true,
+    "triple-equals": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "arrow-return-shorthand": true,
+    "class-name": true,
+    "variable-name": [true, "ban-keywords", "check-format"],
+    "jsx-alignment": true,
+    "jsx-curly-spacing": "always",
+    "jsx-no-lambda": true,
+    "jsx-self-close": true,
+    "jsx-wrap-multiline": true
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ],
+  "run": "onType",
+  "autoFixOnSave": true,
+  "enable": true
+}
